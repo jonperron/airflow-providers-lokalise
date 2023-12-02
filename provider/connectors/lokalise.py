@@ -6,7 +6,7 @@ from lokalise.errors import ClientError, ServerError
 
 from airflow.exceptions import AirflowException
 from airflow.models import BaseOperator
-from providers.lokalise.hooks.lokalise import LokaliseHook
+from provider.hooks.lokalise import LokaliseHook
 
 if TYPE_CHECKING:
     from airflow.utils.context import Context
@@ -20,11 +20,9 @@ class LokaliseOperator(BaseOperator):
 
     :param lokalise_conn_id: Reference to a pre-defined Lokalise Connection
     :param lokalise_method: Method name from Lokalise Library to be called
-    :param lokalise_method_args: Method parameters for the lokalise_method (templated)
+    :param lokalise_method_args: Method parameters for the lokalise_method
     :param result_processor: Function to further process the response from the Lokalise API
     """
-
-    template_fields = ("lokalise_methods_args",)
 
     def __init__(
         self,
