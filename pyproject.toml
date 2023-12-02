@@ -28,7 +28,7 @@ file = "README.md"
 content-type = "text/markdown"
 
 [project.entry-points.apache_airflow_provider]
-provider_info = ""airflow-provider-lokalise.__init__:get_provider_info"
+provider_info = "airflow-provider-lokalise.__init__:get_provider_info"
 
 [tool.setuptools]
 include-package-data = false
