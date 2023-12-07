@@ -2,11 +2,11 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any, Callable
 
-from lokalise.errors import ClientError, ServerError
-
 from airflow.exceptions import AirflowException
 from airflow.models import BaseOperator
-from provider.hooks.lokalise import LokaliseHook
+from lokalise.errors import ClientError, ServerError
+
+from lokalise_provider.hooks.lokalise import LokaliseHook
 
 if TYPE_CHECKING:
     from airflow.utils.context import Context
