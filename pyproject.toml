@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "airflow-provider-lokalise"
+name = "airflow-providers-lokalise"
 authors = [
     {name = "Jonathan Perron", email = "contact@jonathanperron.fr"},
 ]

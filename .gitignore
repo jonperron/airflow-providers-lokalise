@@ -11,3 +11,6 @@ dist/
 
 # Lint
 .mypy_cache
+
+# Test
+.pytest_cache
