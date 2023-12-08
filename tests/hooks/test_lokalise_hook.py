@@ -1,3 +1,6 @@
+# mypy: ignore-errors
+# pylint: disable-all
+
 """
 Unittest module to test Hook
 
