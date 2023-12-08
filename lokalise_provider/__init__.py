@@ -1,4 +1,4 @@
-__version__ = "1.1.3"
+__version__ = "1.1.4"
 
 ## This is needed to allow Airflow to pick up specific metadata fields it needs for certain features.
 def get_provider_info():
