@@ -12,8 +12,8 @@ Hook and operator are using the following parameter to connect to Lokalise API:
 
 ##  Repo organization
 
-* Hook is located in the `airflow-provider-lokalise/hooks` folder.
-* Operator is located in the `airflow-provider-lokalise/operator` folder.
+* Hook is located in the `lokalise_provider/hooks` folder.
+* Operator is located in the `lokalise_provider/operator` folder.
 * Tests for hook and operator are located in the `tests` folder.
 
 ## Dependencies
