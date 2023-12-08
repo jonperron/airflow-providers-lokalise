@@ -1,3 +1,6 @@
+# mypy: ignore-errors
+# pylint: disable-all
+
 from __future__ import annotations
 
 from unittest.mock import Mock, patch

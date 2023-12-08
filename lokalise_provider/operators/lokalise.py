@@ -56,5 +56,5 @@ class LokaliseOperator(BaseOperator):
             raise AirflowException(
                 f"Failed to execute LokaliseOperator, error: {lokalise_error}"
             )
-        except Exception as e:
-            raise AirflowException(f"LokaliseOperator error: {e}")
+        except Exception as exc:
+            raise AirflowException(f"LokaliseOperator error: {exc}")

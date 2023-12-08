@@ -56,17 +56,17 @@ class LokaliseHook(BaseHook):
                 assert self.client
             self.client.project(project)
             return True, "Successfully connected to Lokalise."
-        except Exception as e:
-            return False, str(e)
-    
+        except Exception as exc:
+            return False, str(exc)
+
     @staticmethod
     def get_ui_field_behaviour() -> dict[str, Any]:
-        """Returns custom field behaviour"""       
+        """Returns custom field behaviour"""
 
         return {
             "hidden_fields": ["schema", "login", "port", "extra"],
             "relabeling": {
                 "host": "Lokalise Project ID",
                 "password": "Lokalise API Key",
-            }
+            },
         }
