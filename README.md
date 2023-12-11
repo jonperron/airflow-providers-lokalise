@@ -2,6 +2,14 @@
 
 This repository provides hook and operator to connect to the [Lokalise API](https://developers.lokalise.com/reference/lokalise-rest-api) using the [Lokalise Python SDK](https://github.com/lokalise/python-lokalise-api).
 
+## Installation
+
+The package is available on [pip](https://pypi.org/project/airflow-providers-lokalise/). It can be installed using
+
+```bash
+pip install airflow-providers-lokalise
+```
+
 ## Connection
 
 Hook and operator are using the following parameter to connect to Lokalise API:
