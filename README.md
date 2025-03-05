@@ -28,6 +28,6 @@ Hook and operator are using the following parameter to connect to Lokalise API:
 
 * Python >= 3.10
 * Airflow >= 2.7
-* python-lokalise-api>=2.1.0
+* python-lokalise-api>=3.0.0
 
 Additional dependencies are described in the [pyproject.toml file](pyproject.toml).
