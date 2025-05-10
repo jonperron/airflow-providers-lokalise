@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "airflow-providers-lokalise"
 authors = [
-    {name = "Jonathan Perron", email = "contact@jonathanperron.fr"},
+    {name = "Jonathan Perron", email = "jonathan@perron.bzh"},
 ]
 license = {text = "BSD 3"}
 description = "Lokalise hook and operator for Airflow based on the Lokalise Python SDK"
